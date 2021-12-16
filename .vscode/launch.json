@@ -13,9 +13,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/EnsekTechTestWebApi/bin/Debug/net6.0/EnsekTechTestWebApi.dll",
+            "program": "${workspaceFolder}/MeterReadingWebApi/bin/Debug/net6.0/MeterReadingWebApi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/EnsekTechTestWebApi",
+            "cwd": "${workspaceFolder}/MeterReadingWebApi",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

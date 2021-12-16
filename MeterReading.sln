@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingWebApi", "MeterReadingWebApi\MeterReadingWebApi.csproj", "{5C69A9BC-4DBA-4483-9E71-91FE85562110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingServices", "MeterReadingServices\MeterReadingServices.csproj", "{23A693CE-53AB-431E-A44F-65E47BA6C5D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingDatabase", "MeterReadingDatabase\MeterReadingDatabase.csproj", "{6A832BAA-903D-49E6-9748-516146C7C6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingTests", "MeterReadingTests\MeterReadingTests.csproj", "{C5537BFB-0FC6-4137-8EE9-2B9B29DFE3A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C69A9BC-4DBA-4483-9E71-91FE85562110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C69A9BC-4DBA-4483-9E71-91FE85562110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C69A9BC-4DBA-4483-9E71-91FE85562110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C69A9BC-4DBA-4483-9E71-91FE85562110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A693CE-53AB-431E-A44F-65E47BA6C5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A693CE-53AB-431E-A44F-65E47BA6C5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A693CE-53AB-431E-A44F-65E47BA6C5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A693CE-53AB-431E-A44F-65E47BA6C5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A832BAA-903D-49E6-9748-516146C7C6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A832BAA-903D-49E6-9748-516146C7C6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A832BAA-903D-49E6-9748-516146C7C6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A832BAA-903D-49E6-9748-516146C7C6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5537BFB-0FC6-4137-8EE9-2B9B29DFE3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5537BFB-0FC6-4137-8EE9-2B9B29DFE3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5537BFB-0FC6-4137-8EE9-2B9B29DFE3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5537BFB-0FC6-4137-8EE9-2B9B29DFE3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
