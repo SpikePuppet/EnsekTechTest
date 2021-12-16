@@ -18,7 +18,9 @@ In order to upload a file, send a POST request to the endpoint /meter-reading-up
 
 An example cURL command you can use to do this is:
 
+```
 curl -Lv -X POST -F 'MeterReadings=@./Meter_Reading.csv' http://localhost:5169/meter-reading-upload
+```
 
 As seen in this example, your file should be assigned to a property called MeterReadings.
 
